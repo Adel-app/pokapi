@@ -8,7 +8,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 
 button {
@@ -200,6 +199,7 @@ button:hover {
 
     .pokemon-container {
         padding: 20px;
+        width: 100%
     }
 
     .pokemon-image {
