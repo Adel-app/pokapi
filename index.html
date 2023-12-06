@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Pokemon Display</title>
+</head>
+
+<body>
+    <div class="glitch-text stack" style="--stacks: 3;">
+        <span style="--index: 0; font-size:50px;">Pokémon</span>
+        <span style="--index: 1; font-size:50px;">Pokémon</span>
+        <span style="--index: 2; font-size:50px;">Pokémon</span>
+    </div>
+
+    <div class="flex">
+        <div class="pokemon-container" id="container1">
+            <img class="pokemon-image" id="image1" alt="Pokemon 1 Image">
+            <p class="pokemon-info" id="number1"></p>
+            <p class="pokemon-info" id="name1"></p>
+            <p class="pokemon-info" id="type1"></p>
+            <p class="pokemon-info" id="stats1"></p>
+
+        </div>
+
+        <div class="pokemon-container" id="container2">
+            <img class="pokemon-image" id="image2" alt="Pokemon 2 Image">
+            <p class="pokemon-info" id="number2"></p>
+            <p class="pokemon-info" id="name2"></p>
+            <p class="pokemon-info" id="type2"></p>
+            <p class="pokemon-info" id="stats2"></p>
+        </div>
+    </div>
+
+    <button id="button">Change Pokemon</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
